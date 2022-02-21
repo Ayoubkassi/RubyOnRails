@@ -1,14 +1,36 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Entries</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Meal Type</th>
+      <th>Calories</th>
+      <th>Protiens</th>
+      <th>Carbohydrates</th>
+      <th>Fats</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
 
-<div id="entries">
+  <tbody>
+
   <% @entries.each do |entry| %>
     <%= render entry %>
-    <p>
-      <%= link_to "Show this entry", entry %>
-    </p>
+    <tr>
+      <td><%= entry.meal_type%></td>
+      <td><%= entry.calories%></td>
+      <td><%= entry.protiens%></td>
+      <td><%= entry.carbohydrates%></td>
+      <td><%= entry.fats%></td>
+      <td><%= link_to 'Show', entry %></td>
+      <td><%= link_to 'Edit', edit_entry_path(entry) %></td>
+      <td><%= link_to 'Destroy', entry, method: delete, data : { confirm : 'Are u sure?'}%></td>
+    </tr>
   <% end %>
-</div>
+
+</tbody>
+</table>
+
 
 <%= link_to "New entry", new_entry_path %>
