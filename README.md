@@ -1,13 +1,7 @@
 # README
 
-## To create entry point includes Model routes and controller and migrations we use :
-
-**rails g scaffold Entry meal_type:string calories:integer protiens:integer carbohydrates:integer fats:integer**
-
-
-## to make migrations
-
-**rake db:migrate**
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
 Things you may want to cover:
 
