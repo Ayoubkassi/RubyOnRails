@@ -10,33 +10,34 @@
       </ul>
     </div>
   <% end %>
-
+  <div style="width: 700px ; margin: 0px auto">
   <div>
     <%= form.label :first_name, style: "display: block" %>
-    <%= form.text_field :first_name %>
+    <%= form.text_field :first_name , class:"form-control" %>
   </div>
 
   <div>
     <%= form.label :last_name, style: "display: block" %>
-    <%= form.text_field :last_name %>
+    <%= form.text_field :last_name , class:"form-control" %>
   </div>
 
   <div>
     <%= form.label :email, style: "display: block" %>
-    <%= form.text_field :email %>
+    <%= form.text_field :email , class:"form-control" %>
   </div>
 
   <div>
     <%= form.label :phone, style: "display: block" %>
-    <%= form.text_field :phone %>
+    <%= form.text_field :phone , class:"form-control" %>
   </div>
 
   <div>
     <%= form.label :github, style: "display: block" %>
-    <%= form.text_field :github %>
+    <%= form.text_field :github , class:"form-control" %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-success mt-4" %>
+  </div>
   </div>
 <% end %>
