@@ -2707,3 +2707,388 @@ Processing by FriendsController#index as TURBO_STREAM
 Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms | Allocations: 4091)
 
 
+Started GET "/friends/1" for ::1 at 2022-03-01 15:34:28 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 637)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2818)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 3602)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:35:38 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 647)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3312)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 4688)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:36:03 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 650)
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3315)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 4691)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:36:12 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 651)
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 289)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3317)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 4693)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:36:31 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 644)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 3309)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.1ms | Allocations: 4685)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:36:48 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 645)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3310)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 4686)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:37:21 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 646)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3312)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 4688)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:37:37 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 646)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3311)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 4687)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:37:47 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 645)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3310)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 4686)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:38:07 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 649)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3314)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 4690)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:38:40 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 641)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3306)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 4682)
+
+
+Started GET "/friends" for ::1 at 2022-03-01 15:39:02 +0100
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/_friend.html.erb (Duration: 0.9ms | Allocations: 449)
+  Rendered friends/_friend.html.erb (Duration: 0.3ms | Allocations: 181)
+  Rendered friends/_friend.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered friends/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2084)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 287)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 4752)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.1ms | Allocations: 5691)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:39:06 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 2.4ms | Allocations: 645)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2812)
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.2ms | Allocations: 3595)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:40:08 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 655)
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3320)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 4696)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:40:26 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 373)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2538)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.1ms | Allocations: 3242)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:40:41 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 647)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3312)
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.1ms | Allocations: 4689)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:40:46 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 645)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3310)
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.2ms | Allocations: 4686)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:24 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 650)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 288)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3319)
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 4695)
+
+
+Started GET "/friends" for ::1 at 2022-03-01 15:41:29 +0100
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/_friend.html.erb (Duration: 1.0ms | Allocations: 449)
+  Rendered friends/_friend.html.erb (Duration: 0.3ms | Allocations: 181)
+  Rendered friends/_friend.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered friends/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2074)
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 4252)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 4595)
+
+
+Started GET "/friends/2" for ::1 at 2022-03-01 15:41:30 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFriend Load (0.3ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 372)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2528)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 3235)
+
+
+Started GET "/friends" for ::1 at 2022-03-01 15:41:33 +0100
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/_friend.html.erb (Duration: 0.9ms | Allocations: 192)
+  Rendered friends/_friend.html.erb (Duration: 0.8ms | Allocations: 181)
+  Rendered friends/_friend.html.erb (Duration: 1.1ms | Allocations: 182)
+  Rendered friends/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1512)
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3671)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.1ms | Allocations: 3937)
+
+
+Started GET "/friends/3" for ::1 at 2022-03-01 15:41:37 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 375)
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2531)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 3237)
+
+
+Started GET "/friends" for ::1 at 2022-03-01 15:41:39 +0100
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:18
+  Rendered friends/_friend.html.erb (Duration: 0.6ms | Allocations: 192)
+  Rendered friends/_friend.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered friends/_friend.html.erb (Duration: 0.3ms | Allocations: 182)
+  Rendered friends/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1500)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3659)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 3925)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:40 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 369)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2528)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 3234)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:42 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 373)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2531)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.1ms | Allocations: 3234)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:43 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 371)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2527)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 3230)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:45 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 381)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2537)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 3240)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:46 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 371)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2527)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 3230)
+
+
+Started GET "/friends/1" for ::1 at 2022-03-01 15:41:47 +0100
+Processing by FriendsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFriend Load (0.1ms)[0m  [1m[34mSELECT "friends".* FROM "friends" WHERE "friends"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/friends_controller.rb:63:in `set_friend'
+  Rendering layout layouts/application.html.erb
+  Rendering friends/show.html.erb within layouts/application
+  Rendered friends/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 373)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2529)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.1ms | Allocations: 3232)
+
+
