@@ -1,10 +1,17 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @friend %>
+<div class="jumbotron">
+  <h1 class="display-4"><%= @friend.first_name+" "+@friend.last_name %></h1>
+  <p class="lead"></p>
+  <hr class="my-4">
+  <p><strong>Email : </strong><%= @friend.email %></p>
+  <p><strong>Phone : </strong><%= @friend.phone %></p>
+  <p><strong>Github : </strong><%= @friend.github %></p>
+</div>
 
 <div>
-  <%= link_to "Edit this friend", edit_friend_path(@friend) %> |
-  <%= link_to "Back to friends", friends_path %>
+  <%= link_to "Edit this friend", edit_friend_path(@friend) , class:"btn btn-secondary mt-4" %>
+  <%= link_to "Back to friends", friends_path , class:"btn btn-secondary mt-4" %>
 
-  <%= button_to "Destroy this friend", @friend, method: :delete %>
+  <%= button_to "Destroy this friend", @friend, method: :delete , class:"btn btn-danger mt-4" %>
 </div>
